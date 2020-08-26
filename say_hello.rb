@@ -1,5 +1,4 @@
 require "pry"
-def say_hello (name)
-  puts "Hello Kent Beck!"
-  binding.pry
+def say_hello (name= "Ruby Programmer")
+  puts "Hello #{name}!"
 end
